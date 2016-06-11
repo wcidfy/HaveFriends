@@ -7,16 +7,32 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@end
-
+#import "LoginController.h"
+#import "TabBarController.h"
+#import "AccountTool.h"
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    [self.window makeKeyAndVisible];
+       NSLog(@"%@ ",[[NSUserDefaults standardUserDefaults]objectForKey:@"login"]);
+ 
+    
+
+
+    if ([AccountTool shareAccount].login==1) {
+        self.window.rootViewController=[[TabBarController alloc]init];
+    }else
+    {
+    self.window.rootViewController=[[LoginController alloc]init];
+    
+    }
+       
+    
+        
+   
     return YES;
 }
 

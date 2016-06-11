@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD7CB795FF1293092D94E77 /* Pods_HaveFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DE2DBCA632ECF0245B8B5A /* Pods_HaveFriends.framework */; };
+		B5564C7B1D0936440008E5EA /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C7A1D0936440008E5EA /* TabBarController.m */; };
+		B5564C7E1D09378E0008E5EA /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C7D1D09378E0008E5EA /* NavigationController.m */; };
+		B5564C811D09387C0008E5EA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C801D09387C0008E5EA /* HomeController.m */; };
+		B5564C8D1D093C270008E5EA /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C8C1D093C270008E5EA /* MeController.m */; };
+		B5564C901D093C590008E5EA /* DiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C8F1D093C590008E5EA /* DiscoverController.m */; };
+		B5564C931D093C870008E5EA /* AddressBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C921D093C870008E5EA /* AddressBookController.m */; };
+		B5564C961D0940C20008E5EA /* MeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C951D0940C20008E5EA /* MeView.m */; };
+		B5564C9A1D0954FC0008E5EA /* XMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C991D0954FC0008E5EA /* XMPPTool.m */; };
+		B5564CAA1D09A86C0008E5EA /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CA91D09A86C0008E5EA /* RegisterController.m */; };
+		B5564CAD1D09A9300008E5EA /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CAC1D09A9300008E5EA /* RegisterView.m */; };
+		B5564CB81D0AA2DF0008E5EA /* MBProgressHUD+HM.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CB41D0AA2DF0008E5EA /* MBProgressHUD+HM.m */; };
+		B5564CB91D0AA2DF0008E5EA /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5564CB51D0AA2DF0008E5EA /* MBProgressHUD.bundle */; };
+		B5564CBA1D0AA2DF0008E5EA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CB71D0AA2DF0008E5EA /* MBProgressHUD.m */; };
+		B5564CBD1D0AA64F0008E5EA /* ABCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CBC1D0AA64F0008E5EA /* ABCommonTools.m */; };
+		B5564CC11D0BA8920008E5EA /* AccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CC01D0BA8920008E5EA /* AccountTool.m */; };
 		B5674E831D08152D004F888B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E821D08152D004F888B /* main.m */; };
 		B5674E861D08152D004F888B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E851D08152D004F888B /* AppDelegate.m */; };
 		B5674E891D08152D004F888B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E881D08152D004F888B /* ViewController.m */; };
-		B5674E8C1D08152D004F888B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5674E8A1D08152D004F888B /* Main.storyboard */; };
 		B5674E8E1D08152E004F888B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5674E8D1D08152E004F888B /* Assets.xcassets */; };
-		B5674E911D08152E004F888B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5674E8F1D08152E004F888B /* LaunchScreen.storyboard */; };
 		B5674E9C1D08152E004F888B /* HaveFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E9B1D08152E004F888B /* HaveFriendsTests.m */; };
 		B5674EA71D08152E004F888B /* HaveFriendsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674EA61D08152E004F888B /* HaveFriendsUITests.m */; };
+		B5674EBC1D08EE0E004F888B /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674EBB1D08EE0E004F888B /* LoginController.m */; };
+		B5674EC11D08EF80004F888B /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674EC01D08EF80004F888B /* LoginView.m */; };
+		B5674EC51D08F32D004F888B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674EC41D08F32D004F888B /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +52,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17DE2DBCA632ECF0245B8B5A /* Pods_HaveFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A086D92855BD6E82CD71FC4 /* Pods-HaveFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaveFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaveFriends/Pods-HaveFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		B5564C791D0936440008E5EA /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		B5564C7A1D0936440008E5EA /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		B5564C7C1D09378E0008E5EA /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		B5564C7D1D09378E0008E5EA /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		B5564C7F1D09387C0008E5EA /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		B5564C801D09387C0008E5EA /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		B5564C8B1D093C270008E5EA /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		B5564C8C1D093C270008E5EA /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		B5564C8E1D093C590008E5EA /* DiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverController.h; sourceTree = "<group>"; };
+		B5564C8F1D093C590008E5EA /* DiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverController.m; sourceTree = "<group>"; };
+		B5564C911D093C870008E5EA /* AddressBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookController.h; sourceTree = "<group>"; };
+		B5564C921D093C870008E5EA /* AddressBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookController.m; sourceTree = "<group>"; };
+		B5564C941D0940C20008E5EA /* MeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeView.h; sourceTree = "<group>"; };
+		B5564C951D0940C20008E5EA /* MeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeView.m; sourceTree = "<group>"; };
+		B5564C981D0954FC0008E5EA /* XMPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPTool.h; sourceTree = "<group>"; };
+		B5564C991D0954FC0008E5EA /* XMPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPTool.m; sourceTree = "<group>"; };
+		B5564C9B1D09564F0008E5EA /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		B5564CA81D09A86C0008E5EA /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		B5564CA91D09A86C0008E5EA /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		B5564CAB1D09A9300008E5EA /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		B5564CAC1D09A9300008E5EA /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		B5564CB31D0AA2DF0008E5EA /* MBProgressHUD+HM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HM.h"; sourceTree = "<group>"; };
+		B5564CB41D0AA2DF0008E5EA /* MBProgressHUD+HM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HM.m"; sourceTree = "<group>"; };
+		B5564CB51D0AA2DF0008E5EA /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		B5564CB61D0AA2DF0008E5EA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B5564CB71D0AA2DF0008E5EA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B5564CBB1D0AA64F0008E5EA /* ABCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCommonTools.h; sourceTree = "<group>"; };
+		B5564CBC1D0AA64F0008E5EA /* ABCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCommonTools.m; sourceTree = "<group>"; };
+		B5564CBF1D0BA8920008E5EA /* AccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTool.h; sourceTree = "<group>"; };
+		B5564CC01D0BA8920008E5EA /* AccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTool.m; sourceTree = "<group>"; };
 		B5674E7E1D08152D004F888B /* HaveFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaveFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5674E821D08152D004F888B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5674E841D08152D004F888B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B5674E851D08152D004F888B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5674E871D08152D004F888B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5674E881D08152D004F888B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B5674E8B1D08152D004F888B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5674E841D08152D004F888B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		B5674E851D08152D004F888B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		B5674E871D08152D004F888B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		B5674E881D08152D004F888B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		B5674E8D1D08152E004F888B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5674E901D08152E004F888B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5674E921D08152E004F888B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5674E971D08152E004F888B /* HaveFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaveFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5674E9B1D08152E004F888B /* HaveFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaveFriendsTests.m; sourceTree = "<group>"; };
@@ -51,6 +98,14 @@
 		B5674EA21D08152E004F888B /* HaveFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaveFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5674EA61D08152E004F888B /* HaveFriendsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaveFriendsUITests.m; sourceTree = "<group>"; };
 		B5674EA81D08152E004F888B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5674EB81D0820AE004F888B /* HaveFriends.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaveFriends.pch; sourceTree = "<group>"; };
+		B5674EBA1D08EE0E004F888B /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = ../LoginController.h; sourceTree = "<group>"; };
+		B5674EBB1D08EE0E004F888B /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = ../LoginController.m; sourceTree = "<group>"; };
+		B5674EBF1D08EF80004F888B /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		B5674EC01D08EF80004F888B /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		B5674EC31D08F32D004F888B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B5674EC41D08F32D004F888B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E2C030723F9E2516CD481C78 /* Pods-HaveFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaveFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaveFriends/Pods-HaveFriends.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD7CB795FF1293092D94E77 /* Pods_HaveFriends.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +134,183 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BE57BF271F22DDAD1047470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DE2DBCA632ECF0245B8B5A /* Pods_HaveFriends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5564C721D0908FA0008E5EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C7F1D09387C0008E5EA /* HomeController.h */,
+				B5564C801D09387C0008E5EA /* HomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5564C731D0909100008E5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5564C741D0917D40008E5EA /* Utlity */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C751D09184D0008E5EA /* Tool */,
+			);
+			path = Utlity;
+			sourceTree = "<group>";
+		};
+		B5564C751D09184D0008E5EA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		B5564C821D093AF90008E5EA /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C841D093B300008E5EA /* Controller */,
+				B5564C831D093B280008E5EA /* View */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		B5564C831D093B280008E5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5564C841D093B300008E5EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C911D093C870008E5EA /* AddressBookController.h */,
+				B5564C921D093C870008E5EA /* AddressBookController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5564C851D093B790008E5EA /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C871D093BA10008E5EA /* Controller */,
+				B5564C861D093B8E0008E5EA /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B5564C861D093B8E0008E5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5564C871D093BA10008E5EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C8E1D093C590008E5EA /* DiscoverController.h */,
+				B5564C8F1D093C590008E5EA /* DiscoverController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5564C881D093BC80008E5EA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C8A1D093C070008E5EA /* Controller */,
+				B5564C891D093BF30008E5EA /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B5564C891D093BF30008E5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C941D0940C20008E5EA /* MeView.h */,
+				B5564C951D0940C20008E5EA /* MeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5564C8A1D093C070008E5EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C8B1D093C270008E5EA /* MeController.h */,
+				B5564C8C1D093C270008E5EA /* MeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5564C971D0954CE0008E5EA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C9B1D09564F0008E5EA /* Singleton.h */,
+				B5564C981D0954FC0008E5EA /* XMPPTool.h */,
+				B5564C991D0954FC0008E5EA /* XMPPTool.m */,
+				B5564CBF1D0BA8920008E5EA /* AccountTool.h */,
+				B5564CC01D0BA8920008E5EA /* AccountTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B5564CA51D09A7FB0008E5EA /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				B5564CA71D09A83A0008E5EA /* Controller */,
+				B5564CA61D09A8250008E5EA /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		B5564CA61D09A8250008E5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5564CAB1D09A9300008E5EA /* RegisterView.h */,
+				B5564CAC1D09A9300008E5EA /* RegisterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5564CA71D09A83A0008E5EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5564CA81D09A86C0008E5EA /* RegisterController.h */,
+				B5564CA91D09A86C0008E5EA /* RegisterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5564CAE1D0A7C9E0008E5EA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B5564CBB1D0AA64F0008E5EA /* ABCommonTools.h */,
+				B5564CBC1D0AA64F0008E5EA /* ABCommonTools.m */,
+				B5564CB21D0AA2DF0008E5EA /* MBProgessHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B5564CB21D0AA2DF0008E5EA /* MBProgessHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B5564CB31D0AA2DF0008E5EA /* MBProgressHUD+HM.h */,
+				B5564CB41D0AA2DF0008E5EA /* MBProgressHUD+HM.m */,
+				B5564CB51D0AA2DF0008E5EA /* MBProgressHUD.bundle */,
+				B5564CB61D0AA2DF0008E5EA /* MBProgressHUD.h */,
+				B5564CB71D0AA2DF0008E5EA /* MBProgressHUD.m */,
+			);
+			path = MBProgessHUD;
+			sourceTree = "<group>";
+		};
 		B5674E751D08152D004F888B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +318,8 @@
 				B5674E9A1D08152E004F888B /* HaveFriendsTests */,
 				B5674EA51D08152E004F888B /* HaveFriendsUITests */,
 				B5674E7F1D08152D004F888B /* Products */,
+				BB310B873371F601C1F7935C /* Pods */,
+				6BE57BF271F22DDAD1047470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +336,8 @@
 		B5674E801D08152D004F888B /* HaveFriends */ = {
 			isa = PBXGroup;
 			children = (
-				B5674E841D08152D004F888B /* AppDelegate.h */,
-				B5674E851D08152D004F888B /* AppDelegate.m */,
-				B5674E871D08152D004F888B /* ViewController.h */,
-				B5674E881D08152D004F888B /* ViewController.m */,
-				B5674E8A1D08152D004F888B /* Main.storyboard */,
+				B5674EB41D081B78004F888B /* Classes */,
 				B5674E8D1D08152E004F888B /* Assets.xcassets */,
-				B5674E8F1D08152E004F888B /* LaunchScreen.storyboard */,
 				B5674E921D08152E004F888B /* Info.plist */,
 				B5674E811D08152D004F888B /* Supporting Files */,
 			);
@@ -118,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				B5674E821D08152D004F888B /* main.m */,
+				B5674EB81D0820AE004F888B /* HaveFriends.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +371,101 @@
 			path = HaveFriendsUITests;
 			sourceTree = "<group>";
 		};
+		B5674EB41D081B78004F888B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5564CAE1D0A7C9E0008E5EA /* Lib */,
+				B5564C741D0917D40008E5EA /* Utlity */,
+				B5674EC21D08F2F3004F888B /* Category */,
+				B5564CA51D09A7FB0008E5EA /* Register */,
+				B5674EB91D08EDAA004F888B /* Login */,
+				B5674EB71D082028004F888B /* Home */,
+				B5564C821D093AF90008E5EA /* AddressBook */,
+				B5564C851D093B790008E5EA /* Discover */,
+				B5564C881D093BC80008E5EA /* Me */,
+				B5674EB61D081BAF004F888B /* Others */,
+				B5674EB51D081BA8004F888B /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B5674EB51D081BA8004F888B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C971D0954CE0008E5EA /* Tool */,
+				B5564C791D0936440008E5EA /* TabBarController.h */,
+				B5564C7A1D0936440008E5EA /* TabBarController.m */,
+				B5564C7C1D09378E0008E5EA /* NavigationController.h */,
+				B5564C7D1D09378E0008E5EA /* NavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B5674EB61D081BAF004F888B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B5674E841D08152D004F888B /* AppDelegate.h */,
+				B5674E851D08152D004F888B /* AppDelegate.m */,
+				B5674E871D08152D004F888B /* ViewController.h */,
+				B5674E881D08152D004F888B /* ViewController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B5674EB71D082028004F888B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B5564C731D0909100008E5EA /* View */,
+				B5564C721D0908FA0008E5EA /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B5674EB91D08EDAA004F888B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B5674EBE1D08EF33004F888B /* View */,
+				B5674EBD1D08EF20004F888B /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B5674EBD1D08EF20004F888B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5674EBA1D08EE0E004F888B /* LoginController.h */,
+				B5674EBB1D08EE0E004F888B /* LoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5674EBE1D08EF33004F888B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5674EBF1D08EF80004F888B /* LoginView.h */,
+				B5674EC01D08EF80004F888B /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5674EC21D08F2F3004F888B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B5674EC31D08F32D004F888B /* UIView+Extension.h */,
+				B5674EC41D08F32D004F888B /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BB310B873371F601C1F7935C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A086D92855BD6E82CD71FC4 /* Pods-HaveFriends.debug.xcconfig */,
+				E2C030723F9E2516CD481C78 /* Pods-HaveFriends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +473,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5674EAB1D08152E004F888B /* Build configuration list for PBXNativeTarget "HaveFriends" */;
 			buildPhases = (
+				48265A5347466AFC8E4CD3A2 /* Check Pods Manifest.lock */,
 				B5674E7A1D08152D004F888B /* Sources */,
 				B5674E7B1D08152D004F888B /* Frameworks */,
 				B5674E7C1D08152D004F888B /* Resources */,
+				3FB7A61A9FAFF265C3E18B62 /* Embed Pods Frameworks */,
+				131D3AC5BA6E29F9FFC4EFFB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +575,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5674E911D08152E004F888B /* LaunchScreen.storyboard in Resources */,
 				B5674E8E1D08152E004F888B /* Assets.xcassets in Resources */,
-				B5674E8C1D08152D004F888B /* Main.storyboard in Resources */,
+				B5564CB91D0AA2DF0008E5EA /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +596,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		131D3AC5BA6E29F9FFC4EFFB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaveFriends/Pods-HaveFriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB7A61A9FAFF265C3E18B62 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaveFriends/Pods-HaveFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48265A5347466AFC8E4CD3A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5674E7A1D08152D004F888B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5674EC51D08F32D004F888B /* UIView+Extension.m in Sources */,
+				B5564C9A1D0954FC0008E5EA /* XMPPTool.m in Sources */,
 				B5674E891D08152D004F888B /* ViewController.m in Sources */,
+				B5674EBC1D08EE0E004F888B /* LoginController.m in Sources */,
+				B5564CB81D0AA2DF0008E5EA /* MBProgressHUD+HM.m in Sources */,
+				B5564C7E1D09378E0008E5EA /* NavigationController.m in Sources */,
 				B5674E861D08152D004F888B /* AppDelegate.m in Sources */,
+				B5564C931D093C870008E5EA /* AddressBookController.m in Sources */,
+				B5564C8D1D093C270008E5EA /* MeController.m in Sources */,
+				B5564CAA1D09A86C0008E5EA /* RegisterController.m in Sources */,
+				B5564C901D093C590008E5EA /* DiscoverController.m in Sources */,
+				B5564C961D0940C20008E5EA /* MeView.m in Sources */,
+				B5674EC11D08EF80004F888B /* LoginView.m in Sources */,
+				B5564CBA1D0AA2DF0008E5EA /* MBProgressHUD.m in Sources */,
+				B5564CBD1D0AA64F0008E5EA /* ABCommonTools.m in Sources */,
+				B5564CC11D0BA8920008E5EA /* AccountTool.m in Sources */,
+				B5564C7B1D0936440008E5EA /* TabBarController.m in Sources */,
+				B5564C811D09387C0008E5EA /* HomeController.m in Sources */,
 				B5674E831D08152D004F888B /* main.m in Sources */,
+				B5564CAD1D09A9300008E5EA /* RegisterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +702,6 @@
 			targetProxy = B5674EA31D08152E004F888B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B5674E8A1D08152D004F888B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5674E8B1D08152D004F888B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B5674E8F1D08152E004F888B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5674E901D08152E004F888B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B5674EA91D08152E004F888B /* Debug */ = {
@@ -414,8 +788,11 @@
 		};
 		B5674EAC1D08152E004F888B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A086D92855BD6E82CD71FC4 /* Pods-HaveFriends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HaveFriends/HaveFriends.pch";
 				INFOPLIST_FILE = HaveFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.adqer.com.HaveFriends;
@@ -425,8 +802,11 @@
 		};
 		B5674EAD1D08152E004F888B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C030723F9E2516CD481C78 /* Pods-HaveFriends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HaveFriends/HaveFriends.pch";
 				INFOPLIST_FILE = HaveFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.adqer.com.HaveFriends;
@@ -499,6 +879,7 @@
 				B5674EAD1D08152E004F888B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5674EAE1D08152E004F888B /* Build configuration list for PBXNativeTarget "HaveFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +888,7 @@
 				B5674EB01D08152E004F888B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5674EB11D08152E004F888B /* Build configuration list for PBXNativeTarget "HaveFriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +897,7 @@
 				B5674EB31D08152E004F888B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
