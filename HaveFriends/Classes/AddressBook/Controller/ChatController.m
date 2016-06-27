@@ -56,11 +56,12 @@
     
     
     //进入聊天界面默认滚动到table底部
-    if (_resultContr.fetchedObjects.count>0) {
-//        NSIndexPath *lastIndex=[NSIndexPath indexPathForRow:_resultContr.fetchedObjects.count-1 inSection:0];
-//        [self.tableView scrollToRowAtIndexPath:lastIndex atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-        [self.tableView ScrollBotton:_resultContr.fetchedObjects];
-    }
+//    if (_resultContr.fetchedObjects.count>1) {
+////        NSIndexPath *lastIndex=[NSIndexPath indexPathForRow:_resultContr.fetchedObjects.count-1 inSection:0];
+////        [self.tableView scrollToRowAtIndexPath:lastIndex atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+//        [self.tableView ScrollBotton:_resultContr.fetchedObjects];
+//    }
+    
    
 }
 #pragma mark 移除键盘

@@ -44,7 +44,6 @@
             
         }
         [tableView setRowHeight:cell.cellHeight];
-        [tableView setRowHeight:cell.cellHeight];
         
     }else{
         cell.Send=0;

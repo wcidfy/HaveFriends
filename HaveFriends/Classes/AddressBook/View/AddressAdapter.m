@@ -83,4 +83,19 @@
 
 
 }
+
+
+#pragma mark table 删除
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //获取对应好友
+    XMPPUserCoreDataStorageObject *user=self.dataArray[indexPath.row];
+    if (editingStyle==UITableViewCellEditingStyleDelete) {
+        //删除好友
+        [[XMPPTool sharedXMPPTool].roster removeUser:user.jid];
+        //               [self.tableView reloadData];
+        UITableView *tableview=tableView;
+        [tableview reloadData];
+    }
+}
 @end

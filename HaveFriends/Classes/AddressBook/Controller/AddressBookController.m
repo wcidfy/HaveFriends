@@ -141,18 +141,18 @@
 
 
 
-#pragma mark table 删除
--(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    //获取对应好友
-    XMPPUserCoreDataStorageObject *user=self.resultContr.fetchedObjects[indexPath.row];
-    if (editingStyle==UITableViewCellEditingStyleDelete) {
-        //删除好友
-            [[XMPPTool sharedXMPPTool].roster removeUser:user.jid];
-//               [self.tableView reloadData];
-        [self.tableView refreshTableView];
-    }
-}
+//#pragma mark table 删除
+//-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    //获取对应好友
+//    XMPPUserCoreDataStorageObject *user=self.resultContr.fetchedObjects[indexPath.row];
+//    if (editingStyle==UITableViewCellEditingStyleDelete) {
+//        //删除好友
+//            [[XMPPTool sharedXMPPTool].roster removeUser:user.jid];
+////               [self.tableView reloadData];
+//        [self.tableView refreshTableView];
+//    }
+//}
 #pragma mark 结果控制器的代理
 #pragma mark 数据库内容改变
 -(void)controllerDidChangeContent:(NSFetchedResultsController *)controller
