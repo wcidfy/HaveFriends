@@ -11,5 +11,5 @@
  *    我 控制器
  */
 @interface MeController : UIViewController
-
+-(void)refreshTable;
 @end

@@ -75,7 +75,7 @@
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-    _headImage.centerX=self.centerX;
+    _headImage.centerx=self.centerx;
     _headImage.size=CGSizeMake(80, 80);
     _headImage.y=XXWIDTH*0.2;
     _loginName.frame=CGRectMake(0, _headImage.y+90, XXWIDTH, 40);

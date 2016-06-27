@@ -10,7 +10,10 @@
 #define loginUserKey @"loginUser"
 #define loginPwdKey @"loginPwd"
 #define loginKey @"login"
-static NSString *domain=@"127.0.0.1";
+//本机IP
+NSString *ss=@"192.168.31.115";
+
+static NSString *domain=@"111111";
 static NSString *host=@"127.0.0.1";
 static int port=5222;
 

@@ -12,7 +12,9 @@
 #import "TabBarController.h"
 #import "RegisterController.h"
 #import "AccountTool.h"
-@interface LoginController ()
+#import "XMPPvCardTemp.h"
+#import "XMPPUser.h"
+@interface LoginController ()<UITextFieldDelegate>
 @property(nonatomic,strong)LoginView *loginView;
 @end
 
@@ -21,6 +23,7 @@
 {
     _loginView=[[LoginView alloc]init];
     self.view=_loginView;
+    _loginView.loginName.delegate=self;
 
 }
 - (void)viewDidLoad {
@@ -46,13 +49,12 @@
         return;
     }
     [MBProgressHUD showMessage:@"登录中。。。。"];
-//    把用户名密码保存到沙盒
-//    NSUserDefaults *ud=[NSUserDefaults standardUserDefaults];
-//    [ud setObject:_loginView.loginName.text forKey:@"name"];
-//    [ud setObject:_loginView.loginPwd.text forKey:@"pwd"];
-//    [ud synchronize];
+
     [AccountTool shareAccount].loginUser=_loginView.loginName.text;
     [AccountTool shareAccount].loginPwd=_loginView.loginPwd.text;
+    
+    
+    
     __weak typeof(self) weakSelf=self;
     [XMPPTool sharedXMPPTool].registerOperation=NO;
     [[XMPPTool sharedXMPPTool] xmppLogin:^(XMPPResultType resulType) {
@@ -73,14 +75,47 @@
             [UIApplication sharedApplication].keyWindow.rootViewController=tabBar;
             [AccountTool shareAccount].login=YES;
             [[AccountTool shareAccount]saveAccount];
+            XMPPvCardTemp *myvCard= [XMPPTool sharedXMPPTool].vCard.myvCardTemp;
+            if (myvCard.photo!=nil) {
+                [XMPPUser shareUser].headPhoto=myvCard.photo;
+                
+            }
+            if (myvCard.nickname!=nil) {
+                [XMPPUser shareUser].nickname=myvCard.nickname;
+                
+            }
+            if (myvCard.orgName!=nil) {
+                [XMPPUser shareUser].orgName=myvCard.orgName;
+                
+            }
+            if(myvCard.orgUnits!=nil)
+            {
+                [XMPPUser shareUser].orgUnits=myvCard.orgUnits[0];
+            }
+            if(myvCard.title!=nil)
+            {
+                [XMPPUser shareUser].title=myvCard.title;
+                
+            }
+            if (myvCard.note!=nil) {
+                [XMPPUser shareUser].note=myvCard.note;
+                
+            }
+            if (myvCard.mailer!=nil) {
+                [XMPPUser shareUser].mailer=myvCard.mailer;
+                
+            }
+
+            [[XMPPUser shareUser] saveUser];
+
+            
+            
         }else
         {
             
             [MBProgressHUD showError:@"用户名或密码错误"];
            
-            [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"name"];
-            [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"pwd"];
-
+           
         }
        
     });
@@ -106,5 +141,21 @@
     [_loginView.loginPwd resignFirstResponder];
 
 }
-
+#pragma mark uitextFiled编辑完成调用
+-(void)textFieldDidEndEditing:(UITextField *)textField
+{
+     XMPPvCardTemp *myvCard= [XMPPTool sharedXMPPTool].vCard.myvCardTemp;
+    _loginView.headImage.image=[UIImage imageWithData:myvCard.photo];
+}
+#pragma mark uitextFiled 结束编辑时调用
+-(void)textFieldDidBeginEditing:(UITextField *)textField
+{
+     _loginView.headImage.image=nil;
+    
+}
+- (BOOL)textFieldShouldEndEditing:(UITextField *)textField
+{
+   
+    return YES;
+}
 @end

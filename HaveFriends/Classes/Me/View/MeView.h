@@ -19,4 +19,7 @@
  *  title
  */
 @property(nonatomic,strong)UILabel *titleLable;
+
+@property(nonatomic,strong)UITableView *tableView;
+
 @end

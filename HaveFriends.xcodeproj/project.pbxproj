@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1BD7CB795FF1293092D94E77 /* Pods_HaveFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DE2DBCA632ECF0245B8B5A /* Pods_HaveFriends.framework */; };
+		B51AF7A21D0C391F0062E530 /* XMPPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7A11D0C391F0062E530 /* XMPPUser.m */; };
+		B51AF7D51D0D3A8E0062E530 /* EditMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7D41D0D3A8E0062E530 /* EditMessageController.m */; };
+		B51AF7D81D0D3D6B0062E530 /* EditMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7D71D0D3D6B0062E530 /* EditMessageView.m */; };
+		B51AF7DB1D0E5B0F0062E530 /* AddressBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7DA1D0E5B0F0062E530 /* AddressBookView.m */; };
+		B51AF7DE1D0E861C0062E530 /* AddFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7DD1D0E861C0062E530 /* AddFriendController.m */; };
+		B51AF7E11D0E86A40062E530 /* AddFriendView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7E01D0E86A40062E530 /* AddFriendView.m */; };
+		B51AF7E41D0E99240062E530 /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7E31D0E99240062E530 /* ChatController.m */; };
+		B51AF7E71D0E99500062E530 /* ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF7E61D0E99500062E530 /* ChatView.m */; };
+		B531A3451D0FBDFC005E5A9F /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3441D0FBDFC005E5A9F /* ChatCell.m */; };
+		B531A34F1D1127F2005E5A9F /* FriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A34E1D1127F2005E5A9F /* FriendsCell.m */; };
+		B531A3521D125B93005E5A9F /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3511D125B93005E5A9F /* UIImage+Extention.m */; };
+		B531A3B31D16ABFB005E5A9F /* BKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3AE1D16ABFB005E5A9F /* BKTableViewCell.m */; };
+		B531A3B41D16ABFB005E5A9F /* BKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3B01D16ABFB005E5A9F /* BKTableView.m */; };
+		B531A3B51D16ABFB005E5A9F /* BKTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3B21D16ABFB005E5A9F /* BKTableViewAdapter.m */; };
+		B531A3B81D16AC6B005E5A9F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3B71D16AC6B005E5A9F /* UIColor+Hex.m */; };
+		B531A3C21D16C9E0005E5A9F /* PersonAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3BF1D16C9E0005E5A9F /* PersonAdapter.m */; };
+		B531A3C31D16C9E0005E5A9F /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3C11D16C9E0005E5A9F /* PersonController.m */; };
+		B531A3C61D16CA0A005E5A9F /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3C51D16CA0A005E5A9F /* PersonView.m */; };
+		B531A3CF1D16E0FA005E5A9F /* AddressAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3CE1D16E0FA005E5A9F /* AddressAdapter.m */; };
+		B531A3D21D17ADCA005E5A9F /* ChatAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B531A3D11D17ADCA005E5A9F /* ChatAdapter.m */; };
 		B5564C7B1D0936440008E5EA /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C7A1D0936440008E5EA /* TabBarController.m */; };
 		B5564C7E1D09378E0008E5EA /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C7D1D09378E0008E5EA /* NavigationController.m */; };
 		B5564C811D09387C0008E5EA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564C801D09387C0008E5EA /* HomeController.m */; };
@@ -23,6 +43,7 @@
 		B5564CBA1D0AA2DF0008E5EA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CB71D0AA2DF0008E5EA /* MBProgressHUD.m */; };
 		B5564CBD1D0AA64F0008E5EA /* ABCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CBC1D0AA64F0008E5EA /* ABCommonTools.m */; };
 		B5564CC11D0BA8920008E5EA /* AccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CC01D0BA8920008E5EA /* AccountTool.m */; };
+		B5564CC41D0BE0ED0008E5EA /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5564CC31D0BE0ED0008E5EA /* CardCell.m */; };
 		B5674E831D08152D004F888B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E821D08152D004F888B /* main.m */; };
 		B5674E861D08152D004F888B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E851D08152D004F888B /* AppDelegate.m */; };
 		B5674E891D08152D004F888B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5674E881D08152D004F888B /* ViewController.m */; };
@@ -54,6 +75,46 @@
 /* Begin PBXFileReference section */
 		17DE2DBCA632ECF0245B8B5A /* Pods_HaveFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A086D92855BD6E82CD71FC4 /* Pods-HaveFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaveFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaveFriends/Pods-HaveFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		B51AF7A01D0C391F0062E530 /* XMPPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPUser.h; sourceTree = "<group>"; };
+		B51AF7A11D0C391F0062E530 /* XMPPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPUser.m; sourceTree = "<group>"; };
+		B51AF7D31D0D3A8E0062E530 /* EditMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditMessageController.h; path = ../Controller/EditMessageController.h; sourceTree = "<group>"; };
+		B51AF7D41D0D3A8E0062E530 /* EditMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditMessageController.m; path = ../Controller/EditMessageController.m; sourceTree = "<group>"; };
+		B51AF7D61D0D3D6B0062E530 /* EditMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditMessageView.h; path = ../View/EditMessageView.h; sourceTree = "<group>"; };
+		B51AF7D71D0D3D6B0062E530 /* EditMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditMessageView.m; path = ../View/EditMessageView.m; sourceTree = "<group>"; };
+		B51AF7D91D0E5B0F0062E530 /* AddressBookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookView.h; sourceTree = "<group>"; };
+		B51AF7DA1D0E5B0F0062E530 /* AddressBookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookView.m; sourceTree = "<group>"; };
+		B51AF7DC1D0E861C0062E530 /* AddFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddFriendController.h; path = ../Controller/AddFriendController.h; sourceTree = "<group>"; };
+		B51AF7DD1D0E861C0062E530 /* AddFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddFriendController.m; path = ../Controller/AddFriendController.m; sourceTree = "<group>"; };
+		B51AF7DF1D0E86A40062E530 /* AddFriendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddFriendView.h; path = ../View/AddFriendView.h; sourceTree = "<group>"; };
+		B51AF7E01D0E86A40062E530 /* AddFriendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddFriendView.m; path = ../View/AddFriendView.m; sourceTree = "<group>"; };
+		B51AF7E21D0E99240062E530 /* ChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatController.h; path = ../Controller/ChatController.h; sourceTree = "<group>"; };
+		B51AF7E31D0E99240062E530 /* ChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatController.m; path = ../Controller/ChatController.m; sourceTree = "<group>"; };
+		B51AF7E51D0E99500062E530 /* ChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatView.h; path = ../View/ChatView.h; sourceTree = "<group>"; };
+		B51AF7E61D0E99500062E530 /* ChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatView.m; path = ../View/ChatView.m; sourceTree = "<group>"; };
+		B531A3431D0FBDFC005E5A9F /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatCell.h; path = ../View/ChatCell.h; sourceTree = "<group>"; };
+		B531A3441D0FBDFC005E5A9F /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatCell.m; path = ../View/ChatCell.m; sourceTree = "<group>"; };
+		B531A34D1D1127F2005E5A9F /* FriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsCell.h; sourceTree = "<group>"; };
+		B531A34E1D1127F2005E5A9F /* FriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsCell.m; sourceTree = "<group>"; };
+		B531A3501D125B93005E5A9F /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extention.h"; sourceTree = "<group>"; };
+		B531A3511D125B93005E5A9F /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extention.m"; sourceTree = "<group>"; };
+		B531A3AD1D16ABFB005E5A9F /* BKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTableViewCell.h; sourceTree = "<group>"; };
+		B531A3AE1D16ABFB005E5A9F /* BKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTableViewCell.m; sourceTree = "<group>"; };
+		B531A3AF1D16ABFB005E5A9F /* BKTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTableView.h; sourceTree = "<group>"; };
+		B531A3B01D16ABFB005E5A9F /* BKTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTableView.m; sourceTree = "<group>"; };
+		B531A3B11D16ABFB005E5A9F /* BKTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKTableViewAdapter.h; sourceTree = "<group>"; };
+		B531A3B21D16ABFB005E5A9F /* BKTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKTableViewAdapter.m; sourceTree = "<group>"; };
+		B531A3B61D16AC6B005E5A9F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		B531A3B71D16AC6B005E5A9F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		B531A3BE1D16C9E0005E5A9F /* PersonAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonAdapter.h; sourceTree = "<group>"; };
+		B531A3BF1D16C9E0005E5A9F /* PersonAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonAdapter.m; sourceTree = "<group>"; };
+		B531A3C01D16C9E0005E5A9F /* PersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
+		B531A3C11D16C9E0005E5A9F /* PersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
+		B531A3C41D16CA0A005E5A9F /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
+		B531A3C51D16CA0A005E5A9F /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
+		B531A3CD1D16E0FA005E5A9F /* AddressAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAdapter.h; sourceTree = "<group>"; };
+		B531A3CE1D16E0FA005E5A9F /* AddressAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAdapter.m; sourceTree = "<group>"; };
+		B531A3D01D17ADCA005E5A9F /* ChatAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatAdapter.h; sourceTree = "<group>"; };
+		B531A3D11D17ADCA005E5A9F /* ChatAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatAdapter.m; sourceTree = "<group>"; };
 		B5564C791D0936440008E5EA /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		B5564C7A1D0936440008E5EA /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		B5564C7C1D09378E0008E5EA /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -84,6 +145,8 @@
 		B5564CBC1D0AA64F0008E5EA /* ABCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCommonTools.m; sourceTree = "<group>"; };
 		B5564CBF1D0BA8920008E5EA /* AccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTool.h; sourceTree = "<group>"; };
 		B5564CC01D0BA8920008E5EA /* AccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTool.m; sourceTree = "<group>"; };
+		B5564CC21D0BE0ED0008E5EA /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		B5564CC31D0BE0ED0008E5EA /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
 		B5674E7E1D08152D004F888B /* HaveFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaveFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5674E821D08152D004F888B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5674E841D08152D004F888B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +205,77 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B531A3AB1D16ABAA005E5A9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B531A3AC1D16ABC7005E5A9F /* BKTableView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B531A3AC1D16ABC7005E5A9F /* BKTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B531A3AD1D16ABFB005E5A9F /* BKTableViewCell.h */,
+				B531A3AE1D16ABFB005E5A9F /* BKTableViewCell.m */,
+				B531A3AF1D16ABFB005E5A9F /* BKTableView.h */,
+				B531A3B01D16ABFB005E5A9F /* BKTableView.m */,
+				B531A3B11D16ABFB005E5A9F /* BKTableViewAdapter.h */,
+				B531A3B21D16ABFB005E5A9F /* BKTableViewAdapter.m */,
+			);
+			path = BKTableView;
+			sourceTree = "<group>";
+		};
+		B531A3BD1D16C901005E5A9F /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				B531A3C01D16C9E0005E5A9F /* PersonController.h */,
+				B531A3C11D16C9E0005E5A9F /* PersonController.m */,
+				B531A3BE1D16C9E0005E5A9F /* PersonAdapter.h */,
+				B531A3BF1D16C9E0005E5A9F /* PersonAdapter.m */,
+				B531A3C41D16CA0A005E5A9F /* PersonView.h */,
+				B531A3C51D16CA0A005E5A9F /* PersonView.m */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		B531A3C71D16CA50005E5A9F /* EditMessage */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF7D31D0D3A8E0062E530 /* EditMessageController.h */,
+				B51AF7D41D0D3A8E0062E530 /* EditMessageController.m */,
+				B51AF7D61D0D3D6B0062E530 /* EditMessageView.h */,
+				B51AF7D71D0D3D6B0062E530 /* EditMessageView.m */,
+			);
+			path = EditMessage;
+			sourceTree = "<group>";
+		};
+		B531A3CB1D16DE9B005E5A9F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF7E21D0E99240062E530 /* ChatController.h */,
+				B51AF7E31D0E99240062E530 /* ChatController.m */,
+				B531A3D01D17ADCA005E5A9F /* ChatAdapter.h */,
+				B531A3D11D17ADCA005E5A9F /* ChatAdapter.m */,
+				B51AF7E51D0E99500062E530 /* ChatView.h */,
+				B51AF7E61D0E99500062E530 /* ChatView.m */,
+				B531A3431D0FBDFC005E5A9F /* ChatCell.h */,
+				B531A3441D0FBDFC005E5A9F /* ChatCell.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		B531A3CC1D16DECA005E5A9F /* AddFrinds */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF7DC1D0E861C0062E530 /* AddFriendController.h */,
+				B51AF7DD1D0E861C0062E530 /* AddFriendController.m */,
+				B51AF7DF1D0E86A40062E530 /* AddFriendView.h */,
+				B51AF7E01D0E86A40062E530 /* AddFriendView.m */,
+			);
+			path = AddFrinds;
+			sourceTree = "<group>";
+		};
 		B5564C721D0908FA0008E5EA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +312,8 @@
 			children = (
 				B5564C841D093B300008E5EA /* Controller */,
 				B5564C831D093B280008E5EA /* View */,
+				B531A3CC1D16DECA005E5A9F /* AddFrinds */,
+				B531A3CB1D16DE9B005E5A9F /* Chat */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -185,6 +321,12 @@
 		B5564C831D093B280008E5EA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B51AF7D91D0E5B0F0062E530 /* AddressBookView.h */,
+				B51AF7DA1D0E5B0F0062E530 /* AddressBookView.m */,
+				B531A3CD1D16E0FA005E5A9F /* AddressAdapter.h */,
+				B531A3CE1D16E0FA005E5A9F /* AddressAdapter.m */,
+				B531A34D1D1127F2005E5A9F /* FriendsCell.h */,
+				B531A34E1D1127F2005E5A9F /* FriendsCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +370,8 @@
 			children = (
 				B5564C8A1D093C070008E5EA /* Controller */,
 				B5564C891D093BF30008E5EA /* View */,
+				B531A3BD1D16C901005E5A9F /* Person */,
+				B531A3C71D16CA50005E5A9F /* EditMessage */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -237,6 +381,8 @@
 			children = (
 				B5564C941D0940C20008E5EA /* MeView.h */,
 				B5564C951D0940C20008E5EA /* MeView.m */,
+				B5564CC21D0BE0ED0008E5EA /* CardCell.h */,
+				B5564CC31D0BE0ED0008E5EA /* CardCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +404,8 @@
 				B5564C991D0954FC0008E5EA /* XMPPTool.m */,
 				B5564CBF1D0BA8920008E5EA /* AccountTool.h */,
 				B5564CC01D0BA8920008E5EA /* AccountTool.m */,
+				B51AF7A01D0C391F0062E530 /* XMPPUser.h */,
+				B51AF7A11D0C391F0062E530 /* XMPPUser.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -374,6 +522,7 @@
 		B5674EB41D081B78004F888B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B531A3AB1D16ABAA005E5A9F /* Base */,
 				B5564CAE1D0A7C9E0008E5EA /* Lib */,
 				B5564C741D0917D40008E5EA /* Utlity */,
 				B5674EC21D08F2F3004F888B /* Category */,
@@ -453,6 +602,10 @@
 			children = (
 				B5674EC31D08F32D004F888B /* UIView+Extension.h */,
 				B5674EC41D08F32D004F888B /* UIView+Extension.m */,
+				B531A3501D125B93005E5A9F /* UIImage+Extention.h */,
+				B531A3511D125B93005E5A9F /* UIImage+Extention.m */,
+				B531A3B61D16AC6B005E5A9F /* UIColor+Hex.h */,
+				B531A3B71D16AC6B005E5A9F /* UIColor+Hex.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -650,24 +803,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5674EC51D08F32D004F888B /* UIView+Extension.m in Sources */,
+				B531A3C61D16CA0A005E5A9F /* PersonView.m in Sources */,
+				B531A3CF1D16E0FA005E5A9F /* AddressAdapter.m in Sources */,
+				B531A3B81D16AC6B005E5A9F /* UIColor+Hex.m in Sources */,
+				B531A3C21D16C9E0005E5A9F /* PersonAdapter.m in Sources */,
+				B51AF7E11D0E86A40062E530 /* AddFriendView.m in Sources */,
 				B5564C9A1D0954FC0008E5EA /* XMPPTool.m in Sources */,
+				B531A3B51D16ABFB005E5A9F /* BKTableViewAdapter.m in Sources */,
+				B51AF7E41D0E99240062E530 /* ChatController.m in Sources */,
 				B5674E891D08152D004F888B /* ViewController.m in Sources */,
+				B531A3451D0FBDFC005E5A9F /* ChatCell.m in Sources */,
+				B51AF7E71D0E99500062E530 /* ChatView.m in Sources */,
+				B531A3B41D16ABFB005E5A9F /* BKTableView.m in Sources */,
 				B5674EBC1D08EE0E004F888B /* LoginController.m in Sources */,
 				B5564CB81D0AA2DF0008E5EA /* MBProgressHUD+HM.m in Sources */,
+				B531A3B31D16ABFB005E5A9F /* BKTableViewCell.m in Sources */,
+				B51AF7DB1D0E5B0F0062E530 /* AddressBookView.m in Sources */,
 				B5564C7E1D09378E0008E5EA /* NavigationController.m in Sources */,
 				B5674E861D08152D004F888B /* AppDelegate.m in Sources */,
 				B5564C931D093C870008E5EA /* AddressBookController.m in Sources */,
+				B51AF7A21D0C391F0062E530 /* XMPPUser.m in Sources */,
 				B5564C8D1D093C270008E5EA /* MeController.m in Sources */,
+				B531A34F1D1127F2005E5A9F /* FriendsCell.m in Sources */,
 				B5564CAA1D09A86C0008E5EA /* RegisterController.m in Sources */,
+				B531A3C31D16C9E0005E5A9F /* PersonController.m in Sources */,
+				B531A3521D125B93005E5A9F /* UIImage+Extention.m in Sources */,
+				B51AF7D81D0D3D6B0062E530 /* EditMessageView.m in Sources */,
 				B5564C901D093C590008E5EA /* DiscoverController.m in Sources */,
 				B5564C961D0940C20008E5EA /* MeView.m in Sources */,
 				B5674EC11D08EF80004F888B /* LoginView.m in Sources */,
 				B5564CBA1D0AA2DF0008E5EA /* MBProgressHUD.m in Sources */,
 				B5564CBD1D0AA64F0008E5EA /* ABCommonTools.m in Sources */,
+				B51AF7D51D0D3A8E0062E530 /* EditMessageController.m in Sources */,
+				B5564CC41D0BE0ED0008E5EA /* CardCell.m in Sources */,
 				B5564CC11D0BA8920008E5EA /* AccountTool.m in Sources */,
+				B531A3D21D17ADCA005E5A9F /* ChatAdapter.m in Sources */,
 				B5564C7B1D0936440008E5EA /* TabBarController.m in Sources */,
 				B5564C811D09387C0008E5EA /* HomeController.m in Sources */,
 				B5674E831D08152D004F888B /* main.m in Sources */,
+				B51AF7DE1D0E861C0062E530 /* AddFriendController.m in Sources */,
 				B5564CAD1D09A9300008E5EA /* RegisterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -792,8 +966,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HaveFriends/HaveFriends.pch";
 				INFOPLIST_FILE = HaveFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.adqer.com.HaveFriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -806,8 +982,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HaveFriends/HaveFriends.pch";
 				INFOPLIST_FILE = HaveFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.adqer.com.HaveFriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";

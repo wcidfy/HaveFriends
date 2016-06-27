@@ -86,10 +86,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket/CocoaAsyncSocket.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Masonry/Masonry.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/XMPPFramework/XMPPFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket/CocoaAsyncSocket.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Masonry/Masonry.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/XMPPFramework/XMPPFramework.framework"
 fi

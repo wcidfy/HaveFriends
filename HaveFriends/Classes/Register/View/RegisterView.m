@@ -62,7 +62,7 @@
     [super layoutSubviews];
     _blackView.frame=CGRectMake(0, 20, XXWIDTH, 44);
     _cancelButton.frame=CGRectMake(0, 0, 60, 44);
-    _titleLable.centerX=_blackView.centerX;
+    _titleLable.centerx=_blackView.centerx;
     _titleLable.size=CGSizeMake(60, 44);
     
     _registerName.frame=CGRectMake(20, _blackView.y+44+44, XXWIDTH-40, 40);

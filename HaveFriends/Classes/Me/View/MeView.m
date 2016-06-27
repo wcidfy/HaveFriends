@@ -37,6 +37,8 @@
         [_cancelButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_blackView addSubview:_cancelButton];
     
+        _tableView=[[UITableView alloc]init];
+        [self addSubview:_tableView];
     }
     return self;
     
@@ -45,12 +47,10 @@
 {
     [super layoutSubviews];
     _blackView.frame=CGRectMake(0, 20, XXWIDTH, 44);
-    _titleLable.centerX=_blackView.centerX;
+    _titleLable.centerx=_blackView.centerx;
     _titleLable.size=CGSizeMake(60, 44);
     _cancelButton.frame=CGRectMake(XXWIDTH-60, 0, 60, 44);
-//    _cancelButton.centerY=_blackView.centerY;
-//    _cancelButton.x=XXWIDTH-60;
-//    _cancelButton.size=CGSizeMake(60, 44);
+    _tableView.frame=CGRectMake(0, 64+20, XXWIDTH, XXHEIGHT-64-49-20);
 
 
 }

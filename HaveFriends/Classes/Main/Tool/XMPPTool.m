@@ -7,12 +7,10 @@
 //
 
 #import "XMPPTool.h"
-#import "XMPPFramework.h"
 #import "AccountTool.h"
 @interface XMPPTool ()<XMPPStreamDelegate>
 {
-    //与服务器交互核心类
-    XMPPStream *_xmppStream;
+  
     XMPPResultBlock _resultBlock;
 }
 /**
@@ -41,11 +39,63 @@ singleton_implementation(XMPPTool);
 #pragma mark 1初始化xmppstream
 -(void)setupStream
 {
-    // 创建对象
+    //1 创建对象
     _xmppStream=[[XMPPStream alloc]init];
-    [_xmppStream addDelegate:self delegateQueue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)];
+   
+    
+  
+    //添加电子名片模块
+    _vCardStorage=[XMPPvCardCoreDataStorage sharedInstance];
+    _vCard=[[XMPPvCardTempModule alloc]initWithvCardStorage:_vCardStorage];
+    //激活
+    [_vCard activate:_xmppStream];
+    
+    //2添加头像模块
+    _avatar=[[XMPPvCardAvatarModule alloc]initWithvCardTempModule:_vCard];
+    //激活
+    [_avatar activate:_xmppStream];
     
     
+    //3添加花名册
+    //花名册数据存储
+    _roserStorage=[XMPPRosterCoreDataStorage sharedInstance];
+    //花名册对象
+    _roster=[[XMPPRoster alloc]initWithRosterStorage:_roserStorage];
+    //    激活
+    [_roster activate:_xmppStream];
+    
+    // 4.添加 "消息" 模块
+    _msgArchivingStorage = [[XMPPMessageArchivingCoreDataStorage alloc] init];
+    _msgArchiving = [[XMPPMessageArchiving alloc] initWithMessageArchivingStorage:_msgArchivingStorage];
+    [_msgArchiving activate:_xmppStream];
+    
+    
+     [_xmppStream addDelegate:self delegateQueue:dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)];
+    
+}
+#pragma mark 释放资源
+-(void)releaseStream
+{
+// 移除代理
+    [_xmppStream removeDelegate:self];
+    
+//    取消模块
+    [_avatar deactivate];
+    [_vCard deactivate];
+    [_roster deactivate];
+    [_msgArchiving deactivate];
+//    断开连接
+    [_xmppStream disconnect];
+//    清空资源
+
+    _vCard=nil;
+    _avatar=nil;
+    _vCardStorage=nil;
+    _roster=nil;
+    _roserStorage=nil;
+    _msgArchiving=nil;
+    _msgArchivingStorage=nil;
+    _xmppStream=nil;
 }
 #pragma mark 2连接服务器（传一个jid）
 -(void)connectToHost
@@ -112,6 +162,16 @@ singleton_implementation(XMPPTool);
     [_xmppStream sendElement:presence];
     
 }
+
+
+-(void)dealloc
+{
+    [self releaseStream];
+   
+}
+
+
+
 #pragma mark xmppstream的代理
 #pragma mark 连接建立成功
 -(void)xmppStreamDidConnect:(XMPPStream *)sender
@@ -211,4 +271,5 @@ singleton_implementation(XMPPTool);
     
     
 }
+
 @end

@@ -10,6 +10,8 @@
 #import "LoginController.h"
 #import "TabBarController.h"
 #import "AccountTool.h"
+#import "DDTTYLogger.h"
+#import "DDLog.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -18,11 +20,11 @@
     self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     [self.window makeKeyAndVisible];
        NSLog(@"%@ ",[[NSUserDefaults standardUserDefaults]objectForKey:@"login"]);
- 
     
-
+    XXLog(@"_____%f",kScreenRatio);
 
     if ([AccountTool shareAccount].login==1) {
+       
         self.window.rootViewController=[[TabBarController alloc]init];
     }else
     {
@@ -31,7 +33,7 @@
     }
        
     
-        
+//    [DDLog addLogger:[DDTTYLogger sharedInstance]];
    
     return YES;
 }

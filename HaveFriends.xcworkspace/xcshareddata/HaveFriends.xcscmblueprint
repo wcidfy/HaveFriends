@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "489171D654D669C26F550BA9DC1D5FF4A64B75EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6d0b94ec-fa2c-574f-a7f0-59312ee96ec0" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "489171D654D669C26F550BA9DC1D5FF4A64B75EF" : 0,
+    "6d0b94ec-fa2c-574f-a7f0-59312ee96ec0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1E1CCE8C-2287-4813-A996-030A2CD04783",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "489171D654D669C26F550BA9DC1D5FF4A64B75EF" : "HaveFriends\/",
+    "6d0b94ec-fa2c-574f-a7f0-59312ee96ec0" : "Example\/XM\/NewIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HaveFriends",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HaveFriends.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wcidfy\/HaveFriends.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "489171D654D669C26F550BA9DC1D5FF4A64B75EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.8:8080\/svn\/NewIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6d0b94ec-fa2c-574f-a7f0-59312ee96ec0"
+    }
+  ]
+}
